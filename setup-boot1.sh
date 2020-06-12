@@ -17,3 +17,8 @@ echo "Install Sudo"
 apk add sudo
 #
 echo "david ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+#
+Echo "Change MOTD"
+echo "Welecome to Alpine Linux" > /etc/motd
+#
+
