@@ -12,10 +12,8 @@ apk add faenza-icon-theme
 apk add polkit consolekit2
 apk add --no-cache ca-certificates curl openssl xvfb x11vnc 
 #
-rc-service dbus start
 rc-update add dbus
 #
-rc-service lightdm start
 rc-update add lightdm
 #
 rc-update add local default

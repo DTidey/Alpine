@@ -59,10 +59,13 @@ rc-update add hv_fcopy_daemon
 rc-update add hv_kvp_daemon
 rc-update add hv_vss_daemon
 #
-wget https://raw.githubusercontent.com/DTidey/Alpine/master/install/setup-boot-2.sh
-chmod +x setup-boot-2.sh
+wget https://raw.githubusercontent.com/DTidey/Alpine/master/install/setup-mgt.sh
+chmod +x setup-mgt.sh
 #
-echo "Now reboot and then run setup-boot-s.sh"
+wget https://raw.githubusercontent.com/DTidey/Alpine/master/install/setup-gui.sh
+chmod +x setup-gui.sh
+#
+echo "Now reboot and then run setup-mgt.sh and setup-gui.sh"
 echo "Type 'reboot'"
 
 
